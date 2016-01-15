@@ -1,0 +1,57 @@
+header {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  width: 100%;
+  min-height: 80px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  background: black;
+}
+
+#movie-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: orange;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+
+#movie-more-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: red;
+  font-size: 1.2em;
+}
+
+#ratings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#movie-more-info div {
+  max-width: 30%;
+}
+
+.poster {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.mv {
+  max-width: 60%;
+  flex-grow: 1;
+  padding: 5px;
+  font-family: monospace;
+  border-style: none;
+}

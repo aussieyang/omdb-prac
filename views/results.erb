@@ -1,0 +1,5 @@
+<ul>
+  <% @mv_search_result.each do |i| %>
+    <li><a href="./about/<%= i['imdbID'] %>"> <%= i['Title'] %> </a></li>
+    <% end %>
+</ul>
