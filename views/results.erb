@@ -1,5 +1,12 @@
-<ul>
-  <% @mv_search_result.each do |i| %>
-    <li><a href="./about/<%= i['imdbID'] %>"> <%= i['Title'] %> </a></li>
-    <% end %>
-</ul>
+<div id="results-wrapper">
+
+  <ul>
+    <% @mv_search_result.each do |id| %>
+      <li>
+        <a href="./about/<%= id['imdbID'] %>"> <%= id['Title'] %> </a>
+        <img src="<%= id['Poster'] %>" alt="">
+      </li>
+      <% end %>
+  </ul>
+
+</div>
